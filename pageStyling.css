@@ -195,9 +195,11 @@ a {
 	.projectContainer {
 		flex-direction: column;		
 	}
-	.projectContainer > * {
+	.picContainer {
 		max-width: 100%;
-		width: 100%
+	}
+	.projectDescription {
+		width: calc(100% - 40px);
 	}
 
 }
