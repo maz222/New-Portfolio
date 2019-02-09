@@ -106,7 +106,7 @@ a {
 }
 
 .picContainer {
-	max-width: 35%;
+	max-width: 45%;
 }
 
 .picContainer img {
@@ -115,7 +115,7 @@ a {
 }
 
 .projectDescription {
-	width: calc(50% - 40px);
+	width: calc(40% - 40px);
 	background-color: rgb(70,70,70);
 	padding: 20px;
 	border-radius: 10px;
