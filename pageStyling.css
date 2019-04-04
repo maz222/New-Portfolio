@@ -108,10 +108,12 @@ a {
 
 .picContainer {
 	max-width: 45%;
+	display: flex;
 }
 
 .picContainer img {
 	height: auto;
+	align-self: center;
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.5);
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
