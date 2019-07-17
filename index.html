@@ -13,27 +13,19 @@
 	<body>
 		<div id="navBar">
 			<a data-toElement="landing" onclick="scrollClick(this)">Title</a>
-			<a data-toElement="about" onclick="scrollClick(this)">About me</a>
 			<a data-toElement="skills" onclick="scrollClick(this)">Skills</a>
 			<a data-toElement="projects" onclick="scrollClick(this)">Projects</a>
-			<a data-toElement="contact" onclick="scrollClick(this)">Contact me</a>
 		</div>
 		<div id="landing">
 			<h1>//Hello</h1>
 			<p>I'm <b>Ben Rollins</b>, a <b>web developer</b> located in <b>San Jose, California</b> who's always open to new opportunities and hungry for new challenges.</p>
 			<div>
 				<a class="resumeButton" href="BenRollinsResume.pdf">Resume</a>
-				<a class="emailButton" href="">Contact Me</a>
+				<a class="emailButton" href="mailto:benrollins91@gmail.com">Email Me</a>
 			</div>
 			<i class="fas fa-chevron-down" id="scrollArrow"></i>		
 		</div>
 		<div id="content">
-			<div id="about" class="section">
-				<h1>ABOUT ME</h1>
-				<p>I'm a full stack web developer specializing in the MERN stack. Ever since I was a child, when I would sneak down into my parent's garage to read old game manuals for MS-DOS games like DOOM and Lands of Lore, I've loved computers and technology in general. Since then, I discovered web development, which allows me to combine two of my passions, graphic design and programming. I've largely taught myself via resources such as Codeacademy, Free Code Camp (where I've obtained certifications in Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Libraries, and APIs and Microservices), and, of course, StackOverflow and Google. I've also sought to complement this with traditional CS classes at my local community college and online coding competitions on Hackerrank and CodeSignal in order to strengthen my CS fundamentals.</p>
-				<p>I love how programming empowers people to solve problems and create new products and solutions with (relatively) minimal investment. I'm always on the lookout for new opportunities to advance my career and skills, and love to learn new technologies and topics. For more details, feel free to browse my resume.</p>
-				<p>In my spare time, I enjoy learning about graphic design, <a href="https://letterboxd.com/maz2/">cinema</a>, finance and the stock market, business and entrepreneurship, and <a href="https://www.goodreads.com/user/show/43108129-ben-rollins">reading</a>.</p>
-			</div>
 			<div id="skills" class="section">
 				<h1>SKILLS</h1>
 				<div class="container">
@@ -49,6 +41,7 @@
 			</div>
 			<div id="projects" class="section">
 				<h1>PROJECTS</h1>
+				<p class="disclaimer"><i>*Live projects may take a bit to load due to being on free Heroku servers</i></p>
 				<!-- Keyforge -->
 				<div class="project left">
 					<div class="projectContainer">
@@ -57,8 +50,9 @@
 						</div>
 						<div class="projectDescription">
 							<p>
-								A full stack web app for the popular collectible card game Keyforge. Allows the user to search a database of cards by various properties. Also features a public API for other developers to easily access the database of cards for their own use. <i>(HTML, CSS, JS, React, React Router, Node.js, Express, MongoDB/Mongoose)</i>
+								A full stack web app for the popular collectible card game Keyforge. Allows the user to search a database of cards by various properties. Also features a public API for other developers to easily access the database of cards for their own use. 
 							</p>
+							<p><i>(React, React Router, Node.js, Express, MongoDB/Mongoose)</i></p>
 							<div class="projectLinks">
 								<a href="https://keyfolio.herokuapp.com/" class="liveLink">Live Version</a>
 								<a href="https://github.com/maz222/Keyfolio" class="gitLink">GitHub</a>
@@ -75,8 +69,9 @@
 						</div>
 						<div class="projectDescription">
 							<p>
-								A web app for generating colour schemes similar to Adobe Kuler. Allows the user to input a given color in either RGB, HEX, or HSL format via text input and sliders, and generates other colors to complete a color harmony (Analgous, Complementary, Split, etc). Also displays a range of shades of the main color for easy shadows / shading. Users can simply click on a color to instantly copy it to their clipboard for easy input into their own projects. Features dedicated desktop and mobile versions. <i>(HTML, CSS, JS, React, React Redux)</i>
+								A web app for generating colour schemes similar to Adobe Kuler. Allows the user to input a given color in either RGB, HEX, or HSL format via text input and sliders, and generates other colors to complete a color harmony (Analgous, Complementary, Split, etc). Also displays a range of shades of the main color for easy shadows / shading. Users can simply click on a color to instantly copy it to their clipboard for easy input into their own projects. Features dedicated desktop and mobile versions. 
 							</p>
+							<p><i>(React, React Redux)</i></p>
 							<div class="projectLinks">
 								<a href="https://color-caddy.herokuapp.com/" class="liveLink">Live Version</a>
 								<a href="https://github.com/maz222/Color-Caddy-React" class="gitLink">GitHub</a>
@@ -92,8 +87,9 @@
 						</div>
 						<div class="projectDescription">
 							<p>
-								A web based chat room client that allows user to join, create, and search various chat rooms. Uses websockets to maintain a constant connection with rooms updating in real time. ​<i>(HTML, CSS, JS, Node.js, Express, MongoDB, React, Bootstrap)</i>
+								A web based chat room client that allows user to join, create, and search various chat rooms. Uses websockets to maintain a constant connection with rooms updating in real time. ​
 							</p>
+							<p><i>(Node.js, Express, MongoDB, React, Bootstrap)</i></p>
 							<div class="projectLinks">
 								<a href="https://powerful-harbor-33964.herokuapp.com/" class="liveLink">Live Version</a>
 								<a href="https://github.com/maz222/Easy-Chat" class="gitLink">GitHub</a>
@@ -109,8 +105,9 @@
 						</div>
 						<div class="projectDescription">
 							<p>
-								A "match 3" game in the vein of Bejeweled, Candy Crush, etc. Made in Python using the popular Pygame library. Each block/jewel is rendered via an internal state machine, allowing for easily extended behaviours such as "special" blocks with multiple colors, shields, etc. <i>(Python)</i>
+								A "match 3" game in the vein of Bejeweled, Candy Crush, etc. Made in Python using the popular Pygame library. Each block/jewel is rendered via an internal state machine, allowing for easily extended behaviours such as "special" blocks with multiple colors, shields, etc.
 							</p>
+							<p><i>(Python)</i></p>
 							<div class="projectLinks">
 								<a href="https://github.com/maz222/BejewledGame" class="gitLink">GitHub</a>
 							</div>
@@ -125,8 +122,9 @@
 						</div>
 						<div class="projectDescription">
 							<p>
-								A multiple choice quiz site for the time and space complexities of popular data structures and algorithms. Features a responsive design that works on both desktop browsers and mobile devices. Questions are stored in a local XML file and loaded into the page as the user progresses. <i>(HTML, CSS, JS, jQuery, Boostrap, XML)</i> 
+								A multiple choice quiz site for the time and space complexities of popular data structures and algorithms. Features a responsive design that works on both desktop browsers and mobile devices. Questions are stored in a local XML file and loaded into the page as the user progresses. 
 							</p>
+							<p><i><i>(jQuery, Boostrap, XML)</i></p>
 							<div class="projectLinks">
 								<a href="https://maz222.github.io/BigOQuiz/" class="liveLink">Live Version</a>
 								<a href="https://github.com/maz222/BigOQuiz" class="gitLink">GitHub</a>
