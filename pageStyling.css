@@ -31,7 +31,7 @@ html, body {
 #landing {
 	width: 100%;
 	height: 100vh;
-	background-image: url("https://maz222.github.io/codingBGCopy.jpg");
+	background-image: url("./codingBGCopy.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
